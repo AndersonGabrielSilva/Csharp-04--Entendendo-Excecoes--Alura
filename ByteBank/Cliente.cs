@@ -10,6 +10,7 @@ namespace ByteBank
     {
         private string _cpf;
 
+
         public string Nome { get; set; }
         public string CPF
         {
