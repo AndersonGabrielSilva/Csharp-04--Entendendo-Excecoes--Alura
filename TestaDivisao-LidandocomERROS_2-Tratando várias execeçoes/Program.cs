@@ -15,7 +15,11 @@ namespace TestaDivisao_LidandocomERROS
             {
                 Metodo();
             }
-            catch (NullReferenceException error)
+            catch(DivideByZeroException error)
+            {
+                Console.WriteLine(error.Message);
+            }
+            catch (Exception error)
             {
                 Console.WriteLine(error.Message);
                 Console.WriteLine(error.StackTrace);
