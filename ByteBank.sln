@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio-TratamentoDeErros
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestaDivisao-LidandocomERROS_2-Tratando várias execeçoes", "TestaDivisao-LidandocomERROS_2-Tratando várias execeçoes\TestaDivisao-LidandocomERROS_2-Tratando várias execeçoes.csproj", "{66F47724-90C4-4EC2-AC77-AAFA0335E3B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestaDivisao-LidandocomERROS_3", "TestaDivisao-LidandocomERROS_3\TestaDivisao-LidandocomERROS_3.csproj", "{EDBCCA95-18CC-4D74-9103-DB1D3109D930}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{66F47724-90C4-4EC2-AC77-AAFA0335E3B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66F47724-90C4-4EC2-AC77-AAFA0335E3B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66F47724-90C4-4EC2-AC77-AAFA0335E3B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDBCCA95-18CC-4D74-9103-DB1D3109D930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBCCA95-18CC-4D74-9103-DB1D3109D930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBCCA95-18CC-4D74-9103-DB1D3109D930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBCCA95-18CC-4D74-9103-DB1D3109D930}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
