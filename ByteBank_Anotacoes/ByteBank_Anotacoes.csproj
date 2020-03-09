@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E67EBBD9-038D-4176-B441-CD1E9C96FA7F}</ProjectGuid>
+    <ProjectGuid>{EAE9A49D-E92E-44F0-A899-CF8C7C4E82E9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ByteBank</RootNamespace>
-    <AssemblyName>ByteBank</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>ByteBank_Anotacoes</RootNamespace>
+    <AssemblyName>ByteBank_Anotacoes</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Cliente.cs" />
     <Compile Include="ContaCorrente.cs" />
-    <Compile Include="OperaçãoFinanceiraException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SaldoInsuficienteException.cs" />

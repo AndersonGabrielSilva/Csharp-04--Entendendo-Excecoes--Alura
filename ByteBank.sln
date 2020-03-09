@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestaDivisao-LidandocomERRO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestaDivisao-LidandocomERROS_3", "TestaDivisao-LidandocomERROS_3\TestaDivisao-LidandocomERROS_3.csproj", "{EDBCCA95-18CC-4D74-9103-DB1D3109D930}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBank_Anotacoes", "ByteBank_Anotacoes\ByteBank_Anotacoes.csproj", "{EAE9A49D-E92E-44F0-A899-CF8C7C4E82E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{EDBCCA95-18CC-4D74-9103-DB1D3109D930}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDBCCA95-18CC-4D74-9103-DB1D3109D930}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDBCCA95-18CC-4D74-9103-DB1D3109D930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAE9A49D-E92E-44F0-A899-CF8C7C4E82E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE9A49D-E92E-44F0-A899-CF8C7C4E82E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE9A49D-E92E-44F0-A899-CF8C7C4E82E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE9A49D-E92E-44F0-A899-CF8C7C4E82E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

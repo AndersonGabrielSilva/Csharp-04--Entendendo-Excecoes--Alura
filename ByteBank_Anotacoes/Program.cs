@@ -17,9 +17,9 @@ namespace ByteBank
 
                 conta.Depositar(200);     
                 
-                //conta.Sacar(10000);                
+                conta.Sacar(100);                
 
-                conta.Transferir(10000,conta2);
+                conta.Transferir(5000,conta2);
                 
 
             }
@@ -33,33 +33,21 @@ namespace ByteBank
             catch (SaldoInsuficienteException ex)
             {
                 /*Neste momento é possivel acessaro estado da aplicação no momento da exceção */
-                Console.WriteLine(ex.StackTrace);
-
-                Console.WriteLine();
                 Console.WriteLine(ex.Message);
                 Console.WriteLine("Exceção do tipo saldo insuficiente");
                 Console.WriteLine("Valor do saldo: " + ex.Saldo);
-                Console.WriteLine("Valor do saque: " + ex.ValorSaque);               
+                Console.WriteLine("Valor do saque: " + ex.ValorSaque);
 
-            }
-            catch(OperacaoFinanceiraException ex)
-            {
                 Console.WriteLine(ex.StackTrace);
-                Console.WriteLine(ex.Message);
-                Console.WriteLine("Informaçoes da INNER EXCPTION (exceção interna)");
-                Console.WriteLine("Pego pela exceção Operação Financeira Exception");
-               
+
             }
             catch(Exception ex)
             {
-                Console.WriteLine(ex.StackTrace);
                 Console.WriteLine(ex.Message);
-                Console.WriteLine("Informaçoes da INNER EXCPTION (exceção interna)");
-
-                Console.WriteLine(ex.InnerException.Message);
-                Console.WriteLine(ex.InnerException.StackTrace);
             }
-           
+           //onsole.WriteLine(conta.Agencia);
+           //onsole.WriteLine(conta.Numero);
+           //onsole.WriteLine(ContaCorrente.TaxaDeOperacao);
 
             
 
