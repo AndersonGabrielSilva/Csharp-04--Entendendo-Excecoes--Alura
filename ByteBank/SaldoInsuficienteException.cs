@@ -20,6 +20,7 @@ namespace ByteBank
             
         }            
       
+        //Exceção criada para retornar o valor dos atributos no momento da exceção. 
         public SaldoInsuficienteException(double saldo, double valorSaque) 
             : this("Tentadiva de saque no valor de " + valorSaque + " em uma conta com o saldo de " + saldo )
         {

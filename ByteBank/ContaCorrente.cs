@@ -102,6 +102,7 @@ namespace ByteBank
             {
                 ContadorTransferenciasNãoPermitidas++;
 
+                //Excecão innerException(Exceção Interna)
                 throw new OperacaoFinanceiraException("Operação não realizada.", ex);
             }
             
